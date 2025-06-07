@@ -1,5 +1,5 @@
 *{
-    background-color:bisque
+    background-color:bisque;
 }
 body {
     text-align: center;
@@ -7,24 +7,105 @@ body {
 h1 {
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size 18pt; 
+    font-size: 18pt;
 }
-ul {
+.list {
     list-style-type: none;
     padding: 10px; 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16pt;
     color:aqua
 }
-
 li {
-    padding: 10px;
-    margin: 12px;
-    color:cadetblue
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;    
 }
-li:hover {
-    background-color: lightblue;
-    color: darkblue;
+a:link {
+    color: rgb(11, 102, 114);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(1, 56, 63);
+}
+
+a:hover {
+    color:rgb(247, 246, 244);
+    background-color:rgb(180, 148, 7);
+    text-decoration: none;
+}
+.mac-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
     font-weight: bold;
+    color: brown;
+    text-align: center;
+    margin: 20px;
+    padding: auto;
 }
+.mac-description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: brown;
+    text-align: center:;
+    margin: 20px;
+    padding: auto;
+}
+.description-para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: brown;
+    text-align: center;
+    margin: 20px;
+    padding: auto;
+}
+.ingredients-list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color: rgb(11, 102, 114);
+    text-align: center-justify;
+    margin: 20px;
+    padding: auto;
+}
+.steps {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    color: brown;
+    text-align: left;
+    margin: 20px;
+    padding: auto;
+}
+.steps-list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color: rgb(11, 102, 114);
+    text-align: left;
+    margin: 20px;
+    padding: auto;
+}
+
+.mac-footer a {
+    color: rgb(11, 102, 114);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    padding: 10px;
+
   
+}
+.mac-footer a:hover {
+    color: rgb(247, 246, 244);
+    background-color: rgb(180, 148, 7);
+    text-decoration: none;
+    padding: 0px;              
+}
+
+.macfooterdiv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: brown;
+    text-align: center;
+    margin: 20px;
+    padding: 10px; /* or 1rem, or 0, or whatever you want */
+}
