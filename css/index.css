@@ -1,0 +1,30 @@
+*{
+    background-color:bisque
+}
+body {
+    text-align: center;
+}
+h1 {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size 18pt; 
+}
+ul {
+    list-style-type: none;
+    padding: 10px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color:aqua
+}
+
+li {
+    padding: 10px;
+    margin: 12px;
+    color:cadetblue
+}
+li:hover {
+    background-color: lightblue;
+    color: darkblue;
+    font-weight: bold;
+}
+  
